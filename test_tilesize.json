@@ -1,67 +1,69 @@
 {
-catalog: [
-{
-name: "Protected Areas Database of the U.S. v2.0",
-isOpen: true,
-preserveOrder: true,
-type: "group",
-items: [
-{
-    name: "Cached Data Layers - Regional scale data that load quickly",
-    description:"These layers are suitable for most users",
-isOpen: true,
-preserveOrder: true,
-type: "group",
-items: [
-{
-name: "Old - PAD-US 2.0 Manager Name",
-isEnabled: true,
-isShown: false,
-isLegendVisible: false,
-type: "esri-mapServer",
-url: "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c996787e4b0b8a7f6289256/MapServer",
-attribution: {
-text: "USGS",
-link: "http://www.usgs.gov"
-}
-}
-]
-},
-{
-    name: "Dynamic Data Layers - Local scale data that take longer to load",
-     shortReport:"These layers are suitable for blah blah",
-isOpen: false,
-preserveOrder: true,
-type: "group",
-items: [
-{
-name: "Old - PAD-US 2.0 Manager Name",
-isEnabled: false,
-isShown: false,
-isLegendVisible: false,
-type: "esri-mapServer",
-url: "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c996787e4b0b8a7f6289256/MapServer",
-attribution: {
-text: "USGS",
-link: "http://www.usgs.gov"
-}
-}
-]
-}
-]
-}
-],
-homeCamera: {
-west: -125.025,
-south: 24.043,
-east: -66.797,
-north: 49.838
-},
-initialCamera: {
-west: -125.025,
-south: 24.043,
-east: -66.797,
-north: 49.838
-},
-viewerMode: "2d"
-}
+    catalog: [
+    {
+    name: "Protected Areas Database of the U.S. v2.0",
+    isOpen: true,
+    preserveOrder: true,
+    type: "group",
+    items: [
+    {
+        name: "Cached Data Layers - Regional scale data that load quickly",
+        description:"These layers are suitable for most users",
+    isOpen: true,
+    preserveOrder: true,
+    type: "group",
+    items: [
+    {
+    name: "Old - PAD-US 2.0 Manager Name",
+    description:"These layers are suitable for blah blah",
+    isEnabled: true,
+    isShown: false,
+    isLegendVisible: false,
+    type: "esri-mapServer",
+    url: "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c996787e4b0b8a7f6289256/MapServer",
+    attribution: {
+    text: "USGS",
+    link: "http://www.usgs.gov"
+    }
+    }
+    ]
+    },
+    {
+        name: "Dynamic Data Layers - Local scale data that take longer to load",
+        description:"These layers are suitable for blah blah",
+    isOpen: false,
+    preserveOrder: true,
+    type: "group",
+    items: [
+    {
+    name: "Old - PAD-US 2.0 Manager Name",
+    description:"These layers are suitable for blah blah",
+    isEnabled: false,
+    isShown: false,
+    isLegendVisible: false,
+    type: "esri-mapServer",
+    url: "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c996787e4b0b8a7f6289256/MapServer",
+    attribution: {
+    text: "USGS",
+    link: "http://www.usgs.gov"
+    }
+    }
+    ]
+    }
+    ]
+    }
+    ],
+    homeCamera: {
+    west: -125.025,
+    south: 24.043,
+    east: -66.797,
+    north: 49.838
+    },
+    initialCamera: {
+    west: -125.025,
+    south: 24.043,
+    east: -66.797,
+    north: 49.838
+    },
+    viewerMode: "2d"
+    }
