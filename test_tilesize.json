@@ -49,7 +49,7 @@ link: "http://www.usgs.gov"
 ]
 }
 ]
-},
+}],
 homeCamera: {
 west: -125.025,
 south: 24.043,
