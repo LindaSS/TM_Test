@@ -15,7 +15,7 @@
     items: [
     {
     name: "Old - PAD-US 2.0 Manager Name",
-    description:"These layers are suitable for blah blah",
+    description:"Categorization by name, with detailed federal managers (BLM, NPS, USFS, etc.) and generic state/local/other managers from the combined PAD-US inventory (includes designations, easements and marine) with descriptions from the 'Agency Name' Domain, 'Manager Name' Field. DOD Military Lands are shown with an outline as internal interests are not defined (but assumed Federal).",
     isEnabled: true,
     isShown: false,
     isLegendVisible: false,
