@@ -61,7 +61,6 @@
     link: "http://www.usgs.gov"
     }
     },
-        ,
          {
     name: "PAD-US 2.0 Manager Type (dynamic)",
     description:"Broad categorization of manager levels, for general depictions (Federal, State, Local, etc.) of who manages areas from the combined PAD-US inventory with descriptions from the 'Agency Type' Domain, 'Manager Type' Field. ",
