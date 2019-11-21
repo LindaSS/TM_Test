@@ -29,7 +29,7 @@ link: "http://www.usgs.gov"
 },
 {
     name: "Dynamic Data Layers - Local scale data that take longer to load",
-     description:"These layers are suitable for blah blah",
+     shortReport:"These layers are suitable for blah blah",
 isOpen: true,
 preserveOrder: true,
 type: "group",
