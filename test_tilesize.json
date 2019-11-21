@@ -30,13 +30,13 @@ link: "http://www.usgs.gov"
 {
     name: "Dynamic Data Layers - Local scale data that take longer to load",
      shortReport:"These layers are suitable for blah blah",
-isOpen: true,
+isOpen: false,
 preserveOrder: true,
 type: "group",
 items: [
 {
 name: "Old - PAD-US 2.0 Manager Name",
-isEnabled: true,
+isEnabled: false,
 isShown: false,
 isLegendVisible: false,
 type: "esri-mapServer",
