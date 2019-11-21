@@ -19,6 +19,7 @@
     maximumScale: 72223,
     showTilesAfterMessage:false,
     maximumScaleBeforeMessage: 72223,
+        showsInfo: true,
     isEnabled: true,
     isShown: false,
     isLegendVisible: false,
