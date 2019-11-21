@@ -8,6 +8,7 @@ type: "group",
 items: [
 {
     name: "Cached Data Layers - Regional scale data that load quickly",
+    description:"These layers are suitable for most users",
 isOpen: true,
 preserveOrder: true,
 type: "group",
