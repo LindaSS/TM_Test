@@ -8,7 +8,6 @@ type: "group",
 items: [
 {
     name: "Cached Data Layers - Regional scale data that load quickly",
-    description: "These layers are suitable for most users",
 isOpen: true,
 preserveOrder: true,
 type: "group",
@@ -29,7 +28,6 @@ link: "http://www.usgs.gov"
 },
 {
     name: "Dynamic Data Layers - Local scale data that take longer to load",
-    description: "These layers are suitable for blah blah blah",
 isOpen: false,
 preserveOrder: true,
 type: "group",
