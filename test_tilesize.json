@@ -15,7 +15,7 @@
     items: [
     {
     name: "PAD-US 2.0 Manager Name",
-    shortReport:"Categorization by name, with detailed federal managers (BLM, NPS, USFS, etc.) and generic state/local/other managers from the combined PAD-US inventory (includes designations, easements and marine) with descriptions from the 'Agency Name' Domain, 'Manager Name' Field. DOD Military Lands are shown with an outline as internal interests are not defined (but assumed Federal).<br> <span style='font-size:.8em; font-style:italic>Note: these data will not draw past a scale of 1:75000.  If you need city-level data, please open the data catalog and add PAD-US 2.0 Manager Name (dynamic) from the Dynamic Data Layers group. </span>",
+    shortReport:"Categorization by name, with detailed federal managers (BLM, NPS, USFS, etc.) and generic state/local/other managers from the combined PAD-US inventory (includes designations, easements and marine) with descriptions from the 'Agency Name' Domain, 'Manager Name' Field. DOD Military Lands are shown with an outline as internal interests are not defined (but assumed Federal).<br> <span style='font-size:.8em; font-style:italic'>Note: these data will not draw past a scale of 1:75000.  If you need city-level data, please open the data catalog and add PAD-US 2.0 Manager Name (dynamic) from the Dynamic Data Layers group. </span>",
     maximumScale: 72223,
     showTilesAfterMessage:false,
     maximumScaleBeforeMessage:false,
