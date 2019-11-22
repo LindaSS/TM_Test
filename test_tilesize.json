@@ -31,7 +31,7 @@
     },
          {
     name: "PAD-US 2.0 Manager Type",
-    shortReport:"Broad categorization of manager levels, for general depictions (Federal, State, Local, etc.) of who manages areas from the combined PAD-US inventory with descriptions from the 'Agency Type' Domain, 'Manager Type' Field./n/n Note: these data will not draw past a scale of 1:75,000.  If you need city-level data, please open the data catalog and add PAD-US 2.0 Manager Type (dynamic) from the Dynamic Data Layers group. ",
+    shortReport:"Broad categorization of manager levels, for general depictions (Federal, State, Local, etc.) of who manages areas from the combined PAD-US inventory with descriptions from the 'Agency Type' Domain, 'Manager Type' Field.\n\n Note: these data will not draw past a scale of 1:75,000.  If you need city-level data, please open the data catalog and add PAD-US 2.0 Manager Type (dynamic) from the Dynamic Data Layers group. ",
     maximumScale: 72223,
     showTilesAfterMessage:false,
     maximumScaleBeforeMessage:false,
