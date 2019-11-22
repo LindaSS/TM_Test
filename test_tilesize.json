@@ -231,7 +231,7 @@
             "isShown":true,
             "isLegendVisible":true,
             "type":"esri-mapServer",
-            "url":"https://gis1.usgs.gov/arcgis/rest/services/padus2/federal_fee_managers/MapServer",
+            "url":"https://gis1.usgs.gov/arcgis/rest/services/padus2/all_fee_managers/MapServer",
             "attribution":{  
                "text":"USGS",
                "link":"http://www.usgs.gov"
@@ -428,7 +428,7 @@
         "isShown":false,
         "isLegendVisible":true,
         "type":"esri-mapServer",
-        "url":"https://gis1.usgs.gov/arcgis/rest/services/padus2/federal_fee_managers_dynamic/MapServer",
+        "url":"https://gis1.usgs.gov/arcgis/rest/services/padus2/all_fee_managers_dynamic/MapServer",
         "attribution":{  
            "text":"USGS",
            "link":"http://www.usgs.gov"
