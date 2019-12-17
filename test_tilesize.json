@@ -21,7 +21,7 @@
            "description": "Use to identify overlaps between agency boundaries in the PAD-US 2.0 Fee simple parcel ownership layer. The assessment identifies all boundary overlaps, those between Federal agencies only (large and small), and those between Federal and State agency boundaries (large and small). Add assessment layer of interest separately.",
            "type":"group",
            "isOpen":false,
-           "preserveOrder":false,
+           "preserveOrder":true,
            "items":[
             {
               "name": "All Overlap Errors  (National Scale)",
@@ -254,7 +254,7 @@
            "description": "Use to identify overlaps between agency boundaries in the PAD-US 2.0 Fee simple parcel ownership layer. The assessment identifies all boundary overlaps, those between Federal agencies only (large and small), and those between Federal and State agency boundaries (large and small). Add assessment layer of interest separately. <br> <span style='margin-top:10px; font-size:.8em; font-style:italic' > Note: these data only draw at the city level and take time to load.  High performance, national scale data services are available in the map.</span>",
            "type":"group",
            "isOpen":false,
-           "preserveOrder":false,
+           "preserveOrder":true,
            "items":[
             {
               "name": "All Overlap Errors (Local Scale)",
