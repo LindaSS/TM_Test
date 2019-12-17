@@ -10,32 +10,13 @@
 
 
    {
-       "name": "National to county scale data - loads quickly and displays at zoom levels 1 to 14 (Cached Data Layers)",
-       "description": "National to county scale data - loads quickly and displays at zoom levels 1 to 14 (Cached Data Layers)",
+       "name": "National to county scale data - loads quickly and displays at zoom levels 1 to 13 (Cached Data Layers)",
+       "description": "National to county scale data - loads quickly and displays at zoom levels 1 to 13 (Cached Data Layers)",
    "isOpen": true,
    "preserveOrder": true,
    "type": "group",
    "items": [
-               {  
-           "name":"PAD-US 2.0 Fee Boundary Overlaps (National Scale)",
-           "description": "Use to identify overlaps between agency boundaries in the PAD-US 2.0 Fee simple parcel ownership layer. The assessment identifies all boundary overlaps, those between Federal agencies only (large and small), and those between Federal and State agency boundaries (large and small). Add assessment layer of interest separately.",
-           "type":"group",
-           "isOpen":false,
-           "preserveOrder":true,
-           "items":[
-            {
-              "name": "All Overlap Errors  (National Scale)",
-              "shortReport": "Use to identify overlaps between agency boundaries in the PAD-US 2.0 Fee simple parcel ownership layer. The assessment identifies all boundary overlaps, those between Federal agencies only (large and small), and those between Federal and State agency boundaries (large and small). Please click “Add Data” to add the other assessment layers of interest.<br> <span style='margin-top:10px; font-size:.8em; font-style:italic' > Note: these data will not draw past a scale of 1:75,000.  If you need city-level data, please click 'Add Data' above for access to the data catalog of Dynamic Data Layers.  </span>",
-              "isEnabled": true,
-              "isShown": false,
-              "isLegendVisible": false,
-              "type": "esri-mapServer",
-              "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2/fee_topology/MapServer/0",
-              "attribution": {
-                "text": "USGS",
-                "link": "http://www.usgs.gov"
-              }
-            },
+ 
             {
               "name": "Federal/Federal Overlaps Greater Than 5 Acres  (National Scale)",
               "shortReport": "Use to identify overlaps between agency boundaries in the PAD-US 2.0 Fee simple parcel ownership layer. The assessment identifies all boundary overlaps, those between Federal agencies only (large and small), and those between Federal and State agency boundaries (large and small). Please click “Add Data” to add the other assessment layers of interest.<br> <span style='margin-top:10px; font-size:.8em; font-style:italic' > Note: these data will not draw past a scale of 1:75,000.  If you need city-level data, please click 'Add Data' above for access to the data catalog of Dynamic Data Layers.  </span>",
@@ -239,7 +220,26 @@
               "text":"USGS",
               "link":"http://www.usgs.gov"
            }
-        }
+        },              {  
+           "name":"PAD-US 2.0 Fee Boundary Overlaps (National Scale)",
+           "description": "Use to identify overlaps between agency boundaries in the PAD-US 2.0 Fee simple parcel ownership layer. The assessment identifies all boundary overlaps, those between Federal agencies only (large and small), and those between Federal and State agency boundaries (large and small). Add assessment layer of interest separately.",
+           "type":"group",
+           "isOpen":false,
+           "preserveOrder":true,
+           "items":[
+            {
+              "name": "All Overlap Errors  (National Scale)",
+              "shortReport": "Use to identify overlaps between agency boundaries in the PAD-US 2.0 Fee simple parcel ownership layer. The assessment identifies all boundary overlaps, those between Federal agencies only (large and small), and those between Federal and State agency boundaries (large and small). Please click “Add Data” to add the other assessment layers of interest.<br> <span style='margin-top:10px; font-size:.8em; font-style:italic' > Note: these data will not draw past a scale of 1:75,000.  If you need city-level data, please click 'Add Data' above for access to the data catalog of Dynamic Data Layers.  </span>",
+              "isEnabled": true,
+              "isShown": false,
+              "isLegendVisible": false,
+              "type": "esri-mapServer",
+              "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2/fee_topology/MapServer/0",
+              "attribution": {
+                "text": "USGS",
+                "link": "http://www.usgs.gov"
+              }
+            }
      ]
   },
    {
